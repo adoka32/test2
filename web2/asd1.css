@@ -1,0 +1,48 @@
+/*body {background:#efefef url(../images/sport.png);}*/
+body{
+	background: red;
+	background: url(../img/juve.jpg);
+	color: white;
+}
+.px{
+	width: 300px; 
+	height: 300px;
+}
+
+.one{
+
+
+
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+}
+
+
+@media (max-width: 700px) {
+	.px{
+		width: 100px;
+		height: 100px;
+	}
+
+	.desc{
+		width: 400px;
+		height: 430px;
+		display: flex;
+		flex-direction: column;
+
+	}
+	p{
+		height: 10px;
+		.flex{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+	}
+	}
